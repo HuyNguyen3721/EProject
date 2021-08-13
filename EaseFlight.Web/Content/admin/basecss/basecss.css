@@ -1,0 +1,153 @@
+﻿.btn-create{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+.dataTables_filter{
+    width: calc(100% - 40px);
+}
+.ready-status{
+    color: steelblue;
+}
+.online-status, .success-status, .account-active{
+    color: green;
+}
+.delay-status, .return-status, .account-disable{
+    color: brown;
+}
+.done-status{
+    color: black;
+}
+.cancel-status{
+    color: olive;
+}
+.hide{
+    display: none !important;
+}
+.repair-status{
+    color: hotpink;
+}
+.passenger-detail-modal{
+    min-width: 70%;
+}
+.required {
+    padding-right: 3px !important;
+}
+.required:after {
+    content: "*";
+    color: red;
+    margin-left: 3px;
+}
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 15px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #000;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 6px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 6px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 26px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 45px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(19px, 0);
+  }
+}
+.main-header{
+    padding: 3px 5px !important;
+}
+.brand-link{
+    padding: 8px 0px !important;
+}
+.nav-avt{
+    padding-top: 6px !important;
+}
+.nav-avt img{
+    border-radius: 50%;
+}
+.user-panel img{
+    height: 30px !important;
+    width: 30px !important;
+}
+.dropdown-menu-lg .dropdown-item{
+    padding: 5px 13px !important;
+    font-size: 14px;
+}
+body{
+    font-size: 14px;
+}
+.form-control {
+    font-size: 14px;
+    height: 33px;
+    line-height: 33px;
+}
+.select2-container--bootstrap4 .select2-selection--single{
+    height: 33px !important;
+    line-height: 33px !important;
+}
+.modal-header{
+    padding: 5px 15px;
+}
+.modal-footer{
+    padding: 10px 15px;
+}
+.custom-select{
+    line-height: 20px !important;
+    height: 30px !important;
+}
+.dataTables_filter .form-control{
+    height: 30px !important;
+}
+.menu-active {
+    background-color: rgba(255,255,255,.1) !important;
+    color: white !important;
+}
+.top75percent{
+    top: 75% !important;
+}
+.top25percent {
+    top: 25% !important;
+}
